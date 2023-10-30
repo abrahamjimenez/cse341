@@ -17,7 +17,9 @@ project.
 
 ## Project Summary
 
-The [backend](backend) makes an api for us to use.
+~~The [backend](backend) makes an api for us to use.~~
+
+The [backend](backend) retrieves an API from our mongodb database for us to use.
 
 The [frontend](frontend) uses JavaScript to fetch data from our API and displays it
 in [index.html](frontend/index.html)
