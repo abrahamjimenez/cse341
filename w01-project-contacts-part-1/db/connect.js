@@ -1,29 +1,42 @@
+const {MongoClient} = require("mongodb");
 const dotenv = require("dotenv");
 dotenv.config();
-const MongoClient = require("mongodb").MongoClient;
 
-let _db;
+// Replace the uri string with your connection string.
+const uri = process.env.DB_URI;
 
-const initDb = (callback) => {
-	if (_db) {
-		console.log("Db is already initialized");
-		return _db;
+const client = new MongoClient(uri);
+
+async function run() {
+	try {
+		const database = client.db('project1');
+		const users = database.collection('users');
+
+
+	} finally {
+		// Ensures that the client will close when you finish/error
+		await client.close();
 	}
-	MongoClient.connect(process.env.DB_URI)
-		.then((client) => {
-			_db = client;
-			callback(null, _db);
-		})
-		.catch((err) => {
-			callback(err);
-		});
-};
+}
 
-const getDb = () => {
-	if (!_db) {
-		throw Error("Db not initialized");
-	}
-	return _db;
-};
+run().catch(console.dir);
 
-module.exports = {initDb, getDb};
+// GET
+// Query for a user that has the firstName 'John'
+async function getUserWithFirstName(collection) {
+	const query = {firstName: 'John'};
+	const person = await collection.findOne(query);
+
+	console.log(person);
+}
+
+// POST
+// Query to post a user with a firstName 'Abraham'
+async function addUserWithFirstName(collection) {
+	const query = {firstName: "Abraham"};
+	const newPerson = await collection.insertOne(query);
+
+	console.log(newPerson);
+}
+
+// PUT

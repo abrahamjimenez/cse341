@@ -1,5 +1,15 @@
-### GET request to professional route
-GET localhost:8080/professional
+### GET request to users route
+GET localhost:8080/users
 Content-Type: application/json
 
-###
+### POST request to users route
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  	"firstName": "Abraham",
+	"lastName": "Jimenez",
+	"email": "email@email.com",
+	"favoriteColor": "white",
+	"birthday": "2000-01-01"
+}
