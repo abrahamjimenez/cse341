@@ -12,7 +12,6 @@ async function run() {
 		const database = client.db('project1');
 		const users = database.collection('users');
 
-
 	} finally {
 		// Ensures that the client will close when you finish/error
 		await client.close();
@@ -39,4 +38,36 @@ async function addUserWithFirstName(collection) {
 	console.log(newPerson);
 }
 
-// PUT
+// PUT ( UPDATE )
+// Query to update a user with firstName 'Abraham'
+async function updateUserWithFirstName(collection) {
+	const filter = {
+		firstName: "Abraham",
+		favoriteColor: "white"
+	};
+
+	const updateDocument = {
+		$set: {
+			favoriteColor: "White"
+		}
+	};
+
+	const result = await collection.updateOne(filter, updateDocument);
+
+	console.log(result);
+}
+
+// DELETE
+// Query to delete a user with firstNAme 'Abraham' and favoriteColor 'unset'
+async function deleteUserWithFirstNameAndFavoriteColor(collection) {
+	const filter = {
+		firstName: "Abraham",
+		favoriteColor: {
+			$exists: false
+		}
+	};
+
+	const result = await collection.deleteOne(filter);
+
+	console.log(result);
+}
