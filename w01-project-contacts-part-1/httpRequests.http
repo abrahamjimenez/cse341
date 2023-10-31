@@ -1,0 +1,5 @@
+### GET request to professional route
+GET localhost:8080/professional
+Content-Type: application/json
+
+###
