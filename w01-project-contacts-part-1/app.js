@@ -12,6 +12,7 @@ const swaggerDocument = YAML.load("./swagger.yaml");
 // Middleware
 app.use(express.json());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use(express.static('public'));
 
 // Database connection
 let database;
@@ -28,6 +29,23 @@ connectToDb((error) => {
 
 
 // Routes
+app.get("/", (req, res) => {
+	res.send(`
+
+<head>
+	<title>CSE341 Web App</title>
+	<link rel="stylesheet" type="text/css" href="/scss/style.css">
+</head>
+	
+<body>
+	<div class="links--container">
+		<p>Users: <a href="http://localhost:${port}/users">Users API</a><br></p>
+		<p>Swagger: <a href="http://localhost:${port}/api-docs">Swagger Documentation</a></p>
+	</div>
+</body>
+	`);
+})
+
 app.get("/users", (req, res) => {
 	let users = [];
 
