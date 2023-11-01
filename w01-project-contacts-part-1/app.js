@@ -35,12 +35,13 @@ app.get("/", (req, res) => {
 <head>
 	<title>CSE341 Web App</title>
 	<link rel="stylesheet" type="text/css" href="/scss/style.css">
+	<script src="/js/url.js" defer></script>
 </head>
 	
 <body>
 	<div class="links--container">
-		<p>Users: <a href="http://localhost:${port}/users">Users API</a><br></p>
-		<p>Swagger: <a href="http://localhost:${port}/api-docs">Swagger Documentation</a></p>
+		<p>Users: <a class="users" href="/">Users API</a><br></p>
+		<p>Swagger: <a class="swagger" href="/">Swagger Documentation</a></p>
 	</div>
 </body>
 	`);
