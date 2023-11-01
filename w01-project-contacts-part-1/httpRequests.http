@@ -2,14 +2,6 @@
 GET localhost:8080/users
 Content-Type: application/json
 
-### POST request to users route
-POST localhost:8080/users
+###
+GET localhost:8080/users/65412b9102c401c81734d692
 Content-Type: application/json
-
-{
-  	"firstName": "Abraham",
-	"lastName": "Jimenez",
-	"email": "email@email.com",
-	"favoriteColor": "white",
-	"birthday": "2000-01-01"
-}
