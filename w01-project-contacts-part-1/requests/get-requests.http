@@ -1,0 +1,7 @@
+### GET all users
+GET localhost:8080/users
+Content-Type: application/json
+
+### GET user from id
+GET localhost:8080/users/6541b05a240790ea94794333
+Content-Type: application/json
