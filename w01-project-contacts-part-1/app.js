@@ -4,7 +4,10 @@ const port = process.env.PORT || 8080;
 const {ObjectId} = require("mongodb");
 const {connectToDb, getDb} = require("./db/database");
 
-// database connection
+// Middleware
+app.use(express.json());
+
+// Database connection
 let database;
 connectToDb((error) => {
 	if (!error) {
@@ -48,4 +51,17 @@ app.get("/users/:id", (req, res) => {
 	} else {
 		res.status(500).json({error: "Not a valid document id"});
 	}
+});
+
+app.post("/users", (req, res) => {
+	const user = req.body;
+
+	database.collection("users")
+		.insertOne(user)
+		.then(result => {
+			res.status(201).json(result)
+		})
+		.catch(error =>{
+			res.status(500).json({error: `Could not create new document: ${error}`})
+		})
 });
