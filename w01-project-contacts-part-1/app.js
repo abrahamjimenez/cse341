@@ -59,9 +59,24 @@ app.post("/users", (req, res) => {
 	database.collection("users")
 		.insertOne(user)
 		.then(result => {
-			res.status(201).json(result)
+			res.status(201).json(result);
 		})
-		.catch(error =>{
-			res.status(500).json({error: `Could not create new document: ${error}`})
-		})
+		.catch(error => {
+			res.status(500).json({error: `Could not create new document: ${error}`});
+		});
+});
+
+app.delete("/users/:id", (req, res) => {
+	if (ObjectId.isValid(req.params.id)) {
+		database.collection("users")
+			.deleteOne({_id: new ObjectId(req.params.id)})
+			.then(result => {
+				res.status(200).json(result);
+			})
+			.catch(err => {
+				res.status(500).json({error: `Could not delete the document: ${err}`});
+			});
+	} else {
+		res.status(500).json({error: "Not a valid document id"});
+	}
 });
