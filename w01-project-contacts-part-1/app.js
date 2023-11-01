@@ -1,11 +1,17 @@
 const express = require("express");
+const {ObjectId} = require("mongodb");
+const swaggerUi = require("swagger-ui-express");
+const YAML = require("yamljs");
+
+const {connectToDb, getDb} = require("./db/database");
+
 const app = express();
 const port = process.env.PORT || 8080;
-const {ObjectId} = require("mongodb");
-const {connectToDb, getDb} = require("./db/database");
+const swaggerDocument = YAML.load("./swagger.yaml");
 
 // Middleware
 app.use(express.json());
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Database connection
 let database;
@@ -14,6 +20,7 @@ connectToDb((error) => {
 		app.listen(port, () => {
 			console.log("Database Connected :)");
 			console.log(`App listening on http://localhost:${port}/users`);
+			console.log(`Swagger: http://localhost:${port}/api-docs`);
 		});
 		database = getDb();
 	}
