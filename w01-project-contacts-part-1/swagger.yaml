@@ -6,13 +6,13 @@ info:
 servers:
   - url: http://localhost:8080/
     description: Local development server
+  - url: https://cse341-r5ip.onrender.com
+    description: Production server
 paths:
   /users:
     get:
       tags:
         - Get
-      servers:
-        - url: http://localhost:8080/
       description: Returns a list of users.
       responses:
         200:
@@ -26,8 +26,6 @@ paths:
     post:
       tags:
         - Post
-      servers:
-        - url: http://localhost:8080/
       description: Add a new user
       requestBody:
         required: true
@@ -56,8 +54,6 @@ paths:
     get:
       tags:
         - Get
-      servers:
-        - url: http://localhost:8080/
       description: Get a user by id.
       parameters:
         - name: userId
@@ -76,8 +72,6 @@ paths:
     patch:
       tags:
         - Patch
-      servers:
-        - url: http://localhost:8080/
       description: Update a user by id
       parameters:
         - name: userId
@@ -112,8 +106,6 @@ paths:
     delete:
       tags:
         - Delete
-      servers:
-        - url: http://localhost:8080/
       description: Delete a user by id
       parameters:
         - name: userId
