@@ -80,3 +80,20 @@ app.delete("/users/:id", (req, res) => {
 		res.status(500).json({error: "Not a valid document id"});
 	}
 });
+
+app.patch("/users/:id", (req, res) => {
+	const updates = req.body;
+
+	if (ObjectId.isValid(req.params.id)) {
+		database.collection("users")
+			.updateOne({_id: new ObjectId(req.params.id)}, {$set: updates})
+			.then(result => {
+				res.status(200).json(result);
+			})
+			.catch(err => {
+				res.status(500).json({error: `Could not update the document: ${err}`});
+			});
+	} else {
+		res.status(500).json({error: "Not a valid document id"});
+	}
+});

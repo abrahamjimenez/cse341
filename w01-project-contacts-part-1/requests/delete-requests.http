@@ -1,0 +1,3 @@
+### DELETE user from id
+DELETE localhost:8080/users/6541b05a240790ea94794333
+Content-Type: application/json

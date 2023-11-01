@@ -1,0 +1,11 @@
+### Add user
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+	"firstName": "Chum",
+	"lastName": "Bucket",
+	"email": "plankton@example.com",
+	"favoriteColor": "White",
+	"birthday": "1942-11-30"
+}
