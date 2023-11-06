@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 	</div>
 </body>
 	`);
-})
+});
 
 app.get("/users", (req, res) => {
 	let users = [];
