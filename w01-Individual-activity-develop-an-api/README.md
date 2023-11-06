@@ -2,8 +2,6 @@
 
 ## Installation
 
-### Follow these steps to run the code:
-
 1. Install project dependencies
 
 	 `pnpm install`
@@ -16,8 +14,6 @@ Once the server is running, open [index.html](frontend/index.html) with live ser
 project.
 
 ## Project Summary
-
-~~The [backend](backend) makes an api for us to use.~~
 
 The [backend](backend) retrieves an API from our mongodb database for us to use.
 
