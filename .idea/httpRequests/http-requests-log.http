@@ -1,3 +1,204 @@
+DELETE https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T213055.200.json
+
+###
+
+GET https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T213044.200.json
+
+###
+
+GET https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T212949.200.json
+
+###
+
+PATCH https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Abe"
+}
+
+<> 2023-11-06T212137.200.json
+
+###
+
+PATCH https://cse341-r5ip.onrender.com/users/6541b05a240790ea94794333
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Abe"
+}
+
+<> 2023-11-06T212129.200.json
+
+###
+
+PUT https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Abe"
+}
+
+<> 2023-11-06T212112.404.html
+
+###
+
+GET https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T212036.200.json
+
+###
+
+PUT https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Abe"
+}
+
+<> 2023-11-06T212025.404.html
+
+###
+
+GET https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T212006.200.json
+
+###
+
+GET https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T212002.200.json
+
+###
+
+PUT https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211951.404.html
+
+###
+
+GET https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211926.200.json
+
+###
+
+POST https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211826.201.json
+
+###
+
+DELETE https://cse341-r5ip.onrender.com/users/6541b293240790ea94794334
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211806.200.json
+
+###
+
+GET https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211713.200.json
+
+###
+
+GET http://localhost:8080/users/6549b9c0b18622abd8577fcf
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-06T211510.200.json
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 135
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Chum",
+	"lastName": "Bucket",
+	"email": "plankton@example.com",
+	"favoriteColor": "White",
+	"birthday": "1942-11-30"
+}
+
+<> 2023-11-06T211456.201.json
+
+###
+
 POST http://localhost:8080/users
 Content-Type: application/json
 Content-Length: 135
@@ -376,179 +577,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-10-31T140436.500.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T133922.500.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T133656.200.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T133611.200.html
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 136
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  	"firstName": "Abraham",
-	"lastName": "Jimenez",
-	"email": "email@email.com",
-	"favoriteColor": "white",
-	"birthday": "2000-01-01"
-}
-
-<> 2023-10-31T100658.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T100653.200.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T100513.200.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T092422.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T090727.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T090304.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T085842.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-30T230812.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-30T230803.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-30T230744.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-30T230618.404.html
 
 ###
 
