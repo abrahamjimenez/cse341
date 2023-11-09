@@ -22,7 +22,7 @@ paths:
               schema:
                 type: array
                 items:
-                  type: string
+                  $ref: '#/components/schemas/Contact'
     post:
       tags:
         - Post
@@ -32,19 +32,7 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                firstName:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                favoriteColor:
-                  type: string
-                birthday:
-                  type: string
-                  format: date
+              $ref: '#/components/schemas/Contact'
       responses:
         201:
           description: User created successfully
@@ -68,7 +56,7 @@ paths:
           content:
             application/json:
               schema:
-                type: object
+                $ref: '#/components/schemas/Contact'
     put:
       tags:
         - Put
@@ -85,19 +73,7 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                firstName:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                favoriteColor:
-                  type: string
-                birthday:
-                  type: string
-                  format: date
+              $ref: '#/components/schemas/Contact'
       responses:
         200:
           description: User updated successfully
@@ -119,19 +95,7 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                firstName:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                favoriteColor:
-                  type: string
-                birthday:
-                  type: string
-                  format: date
+              $ref: '#/components/schemas/Contact'
       responses:
         200:
           description: User updated successfully
@@ -153,3 +117,21 @@ paths:
           description: deleted successfully
         400:
           description: request. Invalid data provided
+components:
+  schemas:
+    Contact:
+      type: object
+      properties:
+        id:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        favoriteColor:
+          type: string
+        birthday:
+          type: string
+          format: date
