@@ -3,7 +3,7 @@ GET localhost:8080/users
 Content-Type: application/json
 
 ### GET user from id
-GET localhost:8080/users/6549b9c0b18622abd8577fcf
+GET localhost:8080/users/654ec7267a0df21a353e504a
 Content-Type: application/json
 
 ### Add user
@@ -11,7 +11,7 @@ POST localhost:8080/users
 Content-Type: application/json
 
 {
-	"firstName": "Chum",
+	"firstName": "Me",
 	"lastName": "Bucket",
 	"email": "plankton@example.com",
 	"favoriteColor": "White",

@@ -1,3 +1,80 @@
+GET http://localhost:8080/users
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171404.200.json
+
+###
+
+GET http://localhost:8080/users/654ec7267a0df21a353e504a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171333.200.json
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+	"firstName": "Me",
+	"lastName": "Bucket",
+	"email": "plankton@example.com",
+	"favoriteColor": "White",
+	"birthday": "1942-11-30"
+}
+
+<> 2023-11-10T171326.201.json
+
+###
+
+GET http://localhost:8080/users/653d649efd61cfa625885633
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171311.200.json
+
+###
+
+GET http://localhost:8080/users
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171243.200.json
+
+###
+
+GET http://localhost:8080/api-docs/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171058.200.html
+
+###
+
+GET http://localhost:8080/api-docs/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-10T171053.200.html
+
+###
+
 DELETE https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
 Content-Type: application/json
 Connection: Keep-Alive
@@ -498,85 +575,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-10-31T142330.200.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T142046.200.json
-
-###
-
-POST http://localhost:8080/users
-Content-Type: application/json
-Content-Length: 136
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  	"firstName": "Abraham",
-	"lastName": "Jimenez",
-	"email": "email@email.com",
-	"favoriteColor": "white",
-	"birthday": "2000-01-01"
-}
-
-<> 2023-10-31T142003.404.html
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T141955.200.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T141100.500.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T140828.500.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T140705.500.json
-
-###
-
-GET http://localhost:8080/users
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-10-31T140436.500.json
 
 ###
 
