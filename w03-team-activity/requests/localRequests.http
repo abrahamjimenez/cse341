@@ -1,9 +1,9 @@
 ### GET all users
-GET localhost:8080/users
+GET localhost:8080/test-error
 Content-Type: application/json
 
 ### GET user from id
-GET localhost:8080/users/653d64aefd61cfa625885634
+GET localhost:8080/users/6552bb64fd8cca00905ccbdd
 Content-Type: application/json
 
 ### Add user
