@@ -1,0 +1,47 @@
+### GET all users
+GET https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+
+### GET user from id
+GET https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+
+### POST Add user
+POST https://cse341-r5ip.onrender.com/users
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### PUT (Update) user using id
+PUT https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### PATCH (Update) user using id
+PATCH https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### DELETE user from id
+DELETE https://cse341-r5ip.onrender.com/users/6549ba92eaa47b3198d8c214
+Content-Type: application/json

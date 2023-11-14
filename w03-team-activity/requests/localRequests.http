@@ -1,0 +1,47 @@
+### GET all users
+GET localhost:8080/test-error
+Content-Type: application/json
+
+### GET user from id
+GET localhost:8080/users/6552bb64fd8cca00905ccbdd
+Content-Type: application/json
+
+### Add user
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+	"firstName": "Me",
+	"lastName": "B",
+	"email": "c@gg.com",
+	"favoriteColor": "Hello",
+	"birthday": "1940-11-30"
+}
+
+### PUT (Update) user using id
+PUT localhost:8080/users/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+	"firstName": "Chum",
+	"lastName": "Bucket",
+	"email": "plankton@example.com",
+	"favoriteColor": "White",
+	"birthday": "1942-11-30"
+}
+
+### PATCH (Update) user using id
+PATCH localhost:8080/users/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+	"firstName": "Chum",
+	"lastName": "Bucket",
+	"email": "plankton@example.com",
+	"favoriteColor": "White",
+	"birthday": "1942-11-30"
+}
+
+### DELETE user from id
+DELETE localhost:8080/users/6541b05a240790ea94794333
+Content-Type: application/json
