@@ -2,6 +2,7 @@ const express = require("express");
 const {ObjectId} = require("mongodb");
 const swaggerUi = require("swagger-ui-express");
 const YAML = require("yamljs");
+const { userValidationRules, validate } = require("./validators/validator");
 
 const {connectToDb, getDb} = require("./db/database");
 
@@ -26,7 +27,6 @@ connectToDb((error) => {
 		database = getDb();
 	}
 });
-
 
 // Routes
 app.get("/", (req, res) => {
@@ -79,7 +79,7 @@ app.get("/users/:id", (req, res) => {
 	}
 });
 
-app.post("/users", (req, res) => {
+app.post("/users", userValidationRules(), validate, (req, res) => {
 	const user = req.body;
 
 	database.collection("users")
