@@ -13,11 +13,8 @@ connectToDb((error) => {
 });
 
 // Routes
-router.get("/", (req, res) => {
-  res.send("Hello World");
-});
 
-router.get("/dogs", (req, res) => {
+router.get("/", (req, res) => {
   let dogs = [];
 
   database.collection("dogs")
@@ -34,7 +31,7 @@ router.get("/dogs", (req, res) => {
     });
 });
 
-router.get("/dogs/:id", (req, res) => {
+router.get("/:id", (req, res) => {
   if (ObjectId.isValid(req.params.id)) {
     database.collection("dogs")
       .findOne({_id: new ObjectId(req.params.id)})
@@ -49,7 +46,7 @@ router.get("/dogs/:id", (req, res) => {
   }
 });
 
-router.post("/dogs", (req, res) => {
+router.post("/", (req, res) => {
   const dog = req.body;
 
   database.collection("dogs")
@@ -62,7 +59,7 @@ router.post("/dogs", (req, res) => {
     });
 });
 
-router.delete("/dog/:id", (req, res) => {
+router.delete("/:id", (req, res) => {
   if (ObjectId.isValid(req.params.id)) {
     database.collection("users")
       .deleteOne({_id: new ObjectId(req.params.id)})
@@ -77,7 +74,7 @@ router.delete("/dog/:id", (req, res) => {
   }
 });
 
-router.put("/dogs/:id", (req, res) => {
+router.put("/:id", (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {
@@ -94,7 +91,7 @@ router.put("/dogs/:id", (req, res) => {
   }
 });
 
-router.patch("/dogs/:id", (req, res) => {
+router.patch("/:id", (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {

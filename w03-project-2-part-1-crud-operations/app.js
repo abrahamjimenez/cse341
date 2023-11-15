@@ -22,4 +22,8 @@ connectToDb((error) => {
 });
 
 
-app.use("/" , dogRoutes);
+app.get("/", (req, res) => {
+	res.send("Hello World");
+});
+
+app.use("/dogs" , dogRoutes);
