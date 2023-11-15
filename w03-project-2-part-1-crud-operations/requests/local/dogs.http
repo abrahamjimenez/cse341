@@ -1,0 +1,89 @@
+### GET all dogs
+GET localhost:8080/dogs
+Content-Type: application/json
+
+### GET dog from id
+GET localhost:8080/dogs/655525e0ab65c84ca31fd0f4
+Content-Type: application/json
+
+### Add dog
+POST localhost:8080/dogs
+Content-Type: application/json
+
+{
+  "breed": "Labrador Retriever",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### PUT (Update) dog using id
+PUT localhost:8080/dogs/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+  "breed": "Labrador Retriever",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### PATCH (Update) dog using id
+PATCH localhost:8080/dogs/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+  "breed": "Labrador Retriever",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### DELETE dog from id
+DELETE localhost:8080/dogs/6541b05a240790ea94794333
+Content-Type: application/json
