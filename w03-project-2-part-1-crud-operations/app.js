@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 app.get("/dogs", (req, res) => {
 	let dogs = [];
 
-	database.collection("Dogs")
+	database.collection("dogs")
 		.find()
 		.sort({firstName: 1})
 		.forEach(user => {
@@ -45,7 +45,7 @@ app.get("/dogs", (req, res) => {
 
 app.get("/dogs/:id", (req, res) => {
 	if (ObjectId.isValid(req.params.id)) {
-		database.collection("Dogs")
+		database.collection("dogs")
 			.findOne({_id: new ObjectId(req.params.id)})
 			.then(document => {
 				res.status(200).json(document);
