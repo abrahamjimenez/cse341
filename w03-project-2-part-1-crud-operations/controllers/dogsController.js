@@ -8,7 +8,7 @@ connectToDb((error) => {
   }
 });
 
-exports.getAllDogs = (req, res) => {
+exports.getAllDogs = async (req, res) => {
   let dogs = [];
 
   database.collection("dogs")
@@ -25,7 +25,7 @@ exports.getAllDogs = (req, res) => {
     });
 };
 
-exports.getDogById = (req, res) => {
+exports.getDogById = async (req, res) => {
   if (ObjectId.isValid(req.params.id)) {
     database.collection("dogs")
       .findOne({_id: new ObjectId(req.params.id)})
@@ -40,7 +40,7 @@ exports.getDogById = (req, res) => {
   }
 };
 
-exports.createDog = (req, res) => {
+exports.createDog = async (req, res) => {
   const dog = req.body;
 
   database.collection("dogs")
@@ -53,7 +53,7 @@ exports.createDog = (req, res) => {
     });
 };
 
-exports.updateDog = (req, res) => {
+exports.updateDog = async (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {
@@ -70,7 +70,7 @@ exports.updateDog = (req, res) => {
   }
 };
 
-exports.patchDog = (req, res) => {
+exports.patchDog = async (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {
@@ -87,7 +87,7 @@ exports.patchDog = (req, res) => {
   }
 };
 
-exports.deleteDog = (req, res) => {
+exports.deleteDog = async (req, res) => {
   if (ObjectId.isValid(req.params.id)) {
     database.collection("dogs")
       .deleteOne({_id: new ObjectId(req.params.id)})
