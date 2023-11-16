@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 // Middleware for parsing application
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Middleware for database connection
 app.use((req, res, next) => {
