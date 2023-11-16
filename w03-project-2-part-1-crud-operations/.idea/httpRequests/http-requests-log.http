@@ -1,3 +1,13 @@
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T193956.200.json
+
+###
+
 GET http://localhost:8080/dogs/65557a4b68b5b88d0a897b90
 Content-Type: application/json
 Connection: Keep-Alive
