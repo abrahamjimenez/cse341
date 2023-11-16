@@ -1,5 +1,5 @@
 const express = require("express");
-const {ObjectId} = require("mongodb");
+const bodyParser = require("body-parser");
 
 const {connectToDb, getDb} = require("./db/database");
 const dogRoutes = require("./routes/dogRoutes");
@@ -8,6 +8,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 // Middleware
+app.use(bodyParser.json());
 
 // Database connection
 let database;

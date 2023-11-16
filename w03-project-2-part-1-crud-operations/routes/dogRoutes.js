@@ -13,7 +13,6 @@ connectToDb((error) => {
 });
 
 // Routes
-
 router.get("/", (req, res) => {
   let dogs = [];
 
@@ -46,7 +45,7 @@ router.get("/:id", (req, res) => {
   }
 });
 
-router.post("/", (req, res) => {
+router.post("/", async (req, res) => {
   const dog = req.body;
 
   database.collection("dogs")
@@ -59,26 +58,11 @@ router.post("/", (req, res) => {
     });
 });
 
-router.delete("/:id", (req, res) => {
-  if (ObjectId.isValid(req.params.id)) {
-    database.collection("users")
-      .deleteOne({_id: new ObjectId(req.params.id)})
-      .then(result => {
-        res.status(200).json(result);
-      })
-      .catch(err => {
-        res.status(500).json({error: `Could not delete the document: ${err}`});
-      });
-  } else {
-    res.status(500).json({error: "Not a valid document id"});
-  }
-});
-
 router.put("/:id", (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {
-    database.collection("users")
+    database.collection("dogs")
       .updateOne({_id: new ObjectId(req.params.id)}, {$set: updates})
       .then(result => {
         res.status(200).json(result);
@@ -95,7 +79,7 @@ router.patch("/:id", (req, res) => {
   const updates = req.body;
 
   if (ObjectId.isValid(req.params.id)) {
-    database.collection("users")
+    database.collection("dogs")
       .updateOne({_id: new ObjectId(req.params.id)}, {$set: updates})
       .then(result => {
         res.status(200).json(result);
@@ -107,5 +91,21 @@ router.patch("/:id", (req, res) => {
     res.status(500).json({error: "Not a valid document id"});
   }
 });
+
+router.delete("/:id", (req, res) => {
+  if (ObjectId.isValid(req.params.id)) {
+    database.collection("dogs")
+      .deleteOne({_id: new ObjectId(req.params.id)})
+      .then(result => {
+        res.status(200).json(result);
+      })
+      .catch(err => {
+        res.status(500).json({error: `Could not delete the document: ${err}`});
+      });
+  } else {
+    res.status(500).json({error: "Not a valid document id"});
+  }
+});
+
 
 module.exports = router;

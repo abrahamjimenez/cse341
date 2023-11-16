@@ -3,7 +3,7 @@ GET localhost:8080/dogs
 Content-Type: application/json
 
 ### GET dog from id
-GET localhost:8080/dogs/655525e0ab65c84ca31fd0f4
+GET localhost:8080/dogs/65557a4b68b5b88d0a897b90
 Content-Type: application/json
 
 ### Add dog
@@ -11,7 +11,7 @@ POST localhost:8080/dogs
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
+  "breed": "Shrek's Donkey",
   "size": "Large",
   "temperament": [
     "Friendly",
@@ -33,11 +33,11 @@ Content-Type: application/json
 }
 
 ### PUT (Update) dog using id
-PUT localhost:8080/dogs/6541b05a240790ea94794333
+PUT localhost:8080/dogs/65557a4b68b5b88d0a897b90
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
+  "breed": "DONKEYYYY DOOOONKEEEY",
   "size": "Large",
   "temperament": [
     "Friendly",
@@ -59,11 +59,11 @@ Content-Type: application/json
 }
 
 ### PATCH (Update) dog using id
-PATCH localhost:8080/dogs/6541b05a240790ea94794333
+PATCH localhost:8080/dogs/65557a4b68b5b88d0a897b90
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
+  "breed": "Shrek DOENDOENDOEDN",
   "size": "Large",
   "temperament": [
     "Friendly",
@@ -85,5 +85,5 @@ Content-Type: application/json
 }
 
 ### DELETE dog from id
-DELETE localhost:8080/dogs/6541b05a240790ea94794333
+DELETE localhost:8080/dogs/65557a4b68b5b88d0a897b90
 Content-Type: application/json
