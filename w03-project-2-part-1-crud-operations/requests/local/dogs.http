@@ -3,7 +3,7 @@ GET localhost:8080/dogs
 Content-Type: application/json
 
 ### GET dog from id
-GET localhost:8080/dogs/655525e0ab65c84ca31fd0fa
+GET localhost:8080/dogs/65559b45f434faccc651620a
 Content-Type: application/json
 
 ### Add dog
@@ -85,5 +85,5 @@ Content-Type: application/json
 }
 
 ### DELETE dog from id
-DELETE localhost:8080/dogs/655594766990b42f782ca794
+DELETE localhost:8080/dogs/65559fd18994acd83a521298
 Content-Type: application/json
