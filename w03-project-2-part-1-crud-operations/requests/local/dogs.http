@@ -85,5 +85,5 @@ Content-Type: application/json
 }
 
 ### DELETE dog from id
-DELETE localhost:8080/dogs/6555835b196df62d8630a3c6
+DELETE localhost:8080/dogs/6555902e7de170a7e017ade6
 Content-Type: application/json

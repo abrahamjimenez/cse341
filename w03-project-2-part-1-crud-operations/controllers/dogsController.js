@@ -1,15 +1,10 @@
-const {connectToDb, getDb} = require("../db/database");
 const {ObjectId} = require("mongodb");
 
 let database;
-connectToDb((error) => {
-  if (!error) {
-    database = getDb();
-  }
-});
 
 exports.getAllDogs = async (req, res) => {
   let dogs = [];
+  database = req.database;
 
   database.collection("dogs")
     .find()
