@@ -39,7 +39,7 @@ exports.getDogById = (req, res) => {
     res.status(500).json({error: "Not a valid document id"});
   }
 };
-// todo: make async
+
 exports.createDog = (req, res) => {
   const dog = req.body;
 

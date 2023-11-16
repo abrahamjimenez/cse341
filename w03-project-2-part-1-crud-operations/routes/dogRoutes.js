@@ -1,17 +1,7 @@
 const express = require("express");
 const dogsController = require("../controllers/dogsController");
-const {ObjectId} = require("mongodb");
-const {getDb, connectToDb} = require("../db/database");
 
 const router = express.Router();
-
-// Database connection
-let database;
-connectToDb((error) => {
-  if (!error) {
-    database = getDb();
-  }
-});
 
 // Routes
 router.get("/", dogsController.getAllDogs);
