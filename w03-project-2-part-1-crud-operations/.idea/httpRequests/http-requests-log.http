@@ -1,3 +1,23 @@
+GET http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215657.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215654.200.json
+
+###
+
 DELETE http://localhost:8080/dogs/65559fd18994acd83a521298
 Content-Type: application/json
 Connection: Keep-Alive
@@ -813,26 +833,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-11-15T204131.200.json
-
-###
-
-GET http://localhost:8080/dogs/655525e0ab65c84ca31fd0fa
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-15T204041.200.json
-
-###
-
-GET http://localhost:8080/dogs
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-15T203925.200.json
 
 ###
 

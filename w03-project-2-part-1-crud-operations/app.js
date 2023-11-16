@@ -8,6 +8,7 @@ const port = process.env.PORT || 8080;
 
 // Middleware for parsing application
 app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 // Middleware for database connection
 app.use((req, res, next) => {
