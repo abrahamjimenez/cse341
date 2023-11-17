@@ -1,0 +1,47 @@
+### GET all users
+GET https://cse341-r5ip.onrende/8080/dogs
+Content-Type: application/json
+
+### GET user from id
+GET https://cse341-r5ip.onrender.com/dogs/655525e0ab65c84ca31fd0f4
+Content-Type: application/json
+
+### POST Add user
+POST https://cse341-r5ip.onrende/8080/dogs
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### PUT (Update) user using id
+PUT https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### PATCH (Update) user using id
+PATCH https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### DELETE user from id
+DELETE https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+Content-Type: application/json

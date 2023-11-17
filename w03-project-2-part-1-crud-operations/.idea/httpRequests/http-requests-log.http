@@ -1,0 +1,838 @@
+GET http://localhost:8080/horses
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-17T111551.200.json
+
+###
+
+DELETE http://localhost:8080/horses/65552628ab65c84ca32045b3
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-17T111528.200.json
+
+###
+
+GET http://localhost:8080/horses
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-17T111512.200.json
+
+###
+
+GET http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-17T111503.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-17T111458.200.json
+
+###
+
+GET http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215657.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215654.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/65559fd18994acd83a521298
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215236.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215224.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/65559fff8994acd83a521299
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215221.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T215215.201.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 305
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T215157.422.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 337
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T215133.422.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T215129.201.json
+
+###
+
+DELETE http://localhost:8080/dogs/65559beb8a0f8b6e8a71e08f
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215119.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215108.200.json
+
+###
+
+GET http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215104.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T215059.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T214836.422.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 352
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T213451.201.json
+
+###
+
+DELETE http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T213225.200.json
+
+###
+
+GET http://localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T213217.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 337
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T213205.201.json
+
+###
+
+PUT http://localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+Content-Length: 373
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "DONKEYYYY DOOOONKEEEY",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T213146.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T213132.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210530.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/655594766990b42f782ca794
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210524.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/655594766990b42f782ca794
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210309.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210302.201.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210300.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/6555943b40cfcf4eb4a3fae4
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210221.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210203.201.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210201.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210152.500.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210142.500.json
+
+###
+
+DELETE http://localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210133.500.json
+
+###
+
+DELETE http://localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T210023.200.json
+
+###
+
+PATCH http://localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+Content-Length: 371
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek DOENDOENDOEDN",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210018.200.json
+
+###
+
+PUT http://localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+Content-Length: 373
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "DONKEYYYY DOOOONKEEEY",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210014.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T210004.201.json
+
+###
+
+GET http://localhost:8080/dogs/655525e0ab65c84ca31fd0fa
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T205956.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T205954.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T205501.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T205455.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T205014.500.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T204954.500.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T204510.200.json
+
+###
+
+GET http://localhost:8080/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T204504.200.json
+
+###
+
+DELETE http://localhost:8080/dogs/6555902e7de170a7e017ade6
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-15T204455.200.json
+
+###
+
+POST http://localhost:8080/dogs
+Content-Type: application/json
+Content-Length: 366
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+<> 2023-11-15T204446.201.json
+
+###
+
