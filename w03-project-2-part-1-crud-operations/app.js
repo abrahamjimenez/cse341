@@ -33,6 +33,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/dogs", dogRoutes);
+
 app.use("/horses", horseRoutes)
 
 app.listen(port, () => {

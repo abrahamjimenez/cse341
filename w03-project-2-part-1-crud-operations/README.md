@@ -1,5 +1,6 @@
 # W03 Project: Crud Operations Part 1
 
+
 ## Installation
 
 1. Install project dependencies
@@ -14,6 +15,7 @@
 
 This project grabs the contacts collection in my project1 database.
 
+w03-project-2-part-1-crud-operations
 1. GET: Retrieve animal information from the database
 2. POST: Add new animals to the animals collection
 3. PUT: Add new animals to the animals collection

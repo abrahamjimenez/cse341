@@ -1,47 +1,89 @@
 ### GET all dogs
-GET https://cse341-r5ip.onrende/8080/dogs
+GET localhost:8080/dogs
 Content-Type: application/json
 
 ### GET dog from id
-GET https://cse341-r5ip.onrender.com/dogs/655525e0ab65c84ca31fd0f4
+GET localhost:8080/dogs/65559b45f434faccc651620a
 Content-Type: application/json
 
-### POST Add dog
-POST https://cse341-r5ip.onrende/8080/dogs
+### Add dog
+POST localhost:8080/dogs
 Content-Type: application/json
 
 {
-	"firstName": "Mark",
-	"lastName": "Zuckerberg",
-	"email": "lizard@example.com",
-	"favoriteColor": "green",
-	"birthday": "1980-11-11"
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
 }
 
 ### PUT (Update) dog using id
-PUT https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+PUT localhost:8080/dogs/655593c45630b72d42acc6e2
 Content-Type: application/json
 
 {
-	"firstName": "Mark",
-	"lastName": "Zuckerberg",
-	"email": "lizard@example.com",
-	"favoriteColor": "green",
-	"birthday": "1980-11-11"
+  "breed": "DONKEYYYY DOOOONKEEEY",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
 }
 
 ### PATCH (Update) dog using id
-PATCH https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+PATCH localhost:8080/dogs/655593c45630b72d42acc6e2
 Content-Type: application/json
 
 {
-	"firstName": "Mark",
-	"lastName": "Zuckerberg",
-	"email": "lizard@example.com",
-	"favoriteColor": "green",
-	"birthday": "1980-11-11"
+  "breed": "Shrek DOENDOENDOEDN",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
 }
 
 ### DELETE dog from id
-DELETE https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+DELETE localhost:8080/dogs/65559fd18994acd83a521298
 Content-Type: application/json
