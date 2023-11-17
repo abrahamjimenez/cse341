@@ -1,4 +1,5 @@
 const express = require("express");
+const expressOasGenerator = require('express-oas-generator');
 
 const {connectToDb, getDb} = require("./db/database");
 const dogRoutes = require("./routes/dogRoutes");
@@ -6,6 +7,8 @@ const horseRoutes = require("./routes/horseRoutes");
 
 const app = express();
 const port = process.env.PORT || 8080;
+
+expressOasGenerator.init(app, {}); // Initialize express-oas-generator
 
 // Middleware for parsing application
 app.use(express.json());
