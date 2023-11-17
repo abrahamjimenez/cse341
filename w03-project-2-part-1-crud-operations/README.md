@@ -1,4 +1,4 @@
-# W02 Project: Contacts Part 2
+# W03 Project: Crud Operations Part 1
 
 ## Installation
 
@@ -14,20 +14,16 @@
 
 This project grabs the contacts collection in my project1 database.
 
-1. GET: Retrieve contact information from the database
-2. POST: Add new contacts to the contacts collection
-3. PUT: Add new contacts to the contacts collection
-4. PATCH: Modify existing contact information
-5. DELETE: Remove contacts from collection
+1. GET: Retrieve animal information from the database
+2. POST: Add new animals to the animals collection
+3. PUT: Add new animals to the animals collection
+4. PATCH: Modify existing animal information
+5. DELETE: Remove animals from collection
 
 ## Technologies Used
 
+* Node.js
 * Express.js
 * MongoDB
+* express-oas-generator
 * Swagger
-* yamljs
-* pnpm
-* Node.js
-* HTML and CSS
-* swagger-ui-express
-* swagger-jsdoc

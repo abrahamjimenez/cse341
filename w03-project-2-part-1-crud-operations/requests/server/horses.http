@@ -1,25 +1,13 @@
-### GET all dogs
-GET https://cse341-r5ip.onrende/8080/dogs
+### GET all horses
+GET https://cse341-r5ip.onrende/8080/horses
 Content-Type: application/json
 
-### GET dog from id
-GET https://cse341-r5ip.onrender.com/dogs/655525e0ab65c84ca31fd0f4
+### GET horse from id
+GET https://cse341-r5ip.onrender.com/horses/655525e0ab65c84ca31fd0f4
 Content-Type: application/json
 
-### POST Add dog
-POST https://cse341-r5ip.onrende/8080/dogs
-Content-Type: application/json
-
-{
-	"firstName": "Mark",
-	"lastName": "Zuckerberg",
-	"email": "lizard@example.com",
-	"favoriteColor": "green",
-	"birthday": "1980-11-11"
-}
-
-### PUT (Update) dog using id
-PUT https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+### POST Add horse
+POST https://cse341-r5ip.onrende/8080/horses
 Content-Type: application/json
 
 {
@@ -30,8 +18,8 @@ Content-Type: application/json
 	"birthday": "1980-11-11"
 }
 
-### PATCH (Update) dog using id
-PATCH https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+### PUT (Update) horse using id
+PUT https://cse341-r5ip.onrender.com/horses/6541b05a240790ea94794333
 Content-Type: application/json
 
 {
@@ -42,6 +30,18 @@ Content-Type: application/json
 	"birthday": "1980-11-11"
 }
 
-### DELETE dog from id
-DELETE https://cse341-r5ip.onrender.com/dogs/6541b05a240790ea94794333
+### PATCH (Update) horse using id
+PATCH https://cse341-r5ip.onrender.com/horses/6541b05a240790ea94794333
+Content-Type: application/json
+
+{
+	"firstName": "Mark",
+	"lastName": "Zuckerberg",
+	"email": "lizard@example.com",
+	"favoriteColor": "green",
+	"birthday": "1980-11-11"
+}
+
+### DELETE horse from id
+DELETE https://cse341-r5ip.onrender.com/horses/6541b05a240790ea94794333
 Content-Type: application/json
