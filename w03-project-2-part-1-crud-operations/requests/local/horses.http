@@ -1,89 +1,83 @@
-### GET all dogs
+### GET all horses
 GET localhost:8080/horses
 Content-Type: application/json
 
-### GET dog from id
+### GET horse from id
 GET localhost:8080/horses/655525e0ab65c84ca31fd0f4
 Content-Type: application/json
 
-### Add dog
+### Add horse
 POST localhost:8080/horses
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
-  "size": "Large",
+  "breed": "TEST",
+  "size": "Small",
   "temperament": [
-    "Friendly",
-    "Outgoing",
-    "Even Tempered"
+    "Energetic",
+    "Intelligent",
+    "Strong-willed"
   ],
-  "life_span": "10-12 years",
+  "life_span": "20-30 years",
   "origin": "United Kingdom",
   "color": [
-    "Black",
-    "Yellow",
-    "Chocolate"
+    "Any color"
   ],
   "characteristics": {
-    "intelligence": "High",
-    "shedding_level": "Moderate",
-    "exercise_needs": "High"
+    "size": "Tiny",
+    "endurance": "Moderate",
+    "height": "Up to 10.2 hands"
   }
 }
 
-### PUT (Update) dog using id
+### PUT (Update) horse using id
 PUT localhost:8080/horses/6541b05a240790ea94794333
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
-  "size": "Large",
+  "breed": "TEST PUT",
+  "size": "Small",
   "temperament": [
-    "Friendly",
-    "Outgoing",
-    "Even Tempered"
+    "Energetic",
+    "Intelligent",
+    "Strong-willed"
   ],
-  "life_span": "10-12 years",
+  "life_span": "20-30 years",
   "origin": "United Kingdom",
   "color": [
-    "Black",
-    "Yellow",
-    "Chocolate"
+    "Any color"
   ],
   "characteristics": {
-    "intelligence": "High",
-    "shedding_level": "Moderate",
-    "exercise_needs": "High"
+    "size": "Tiny",
+    "endurance": "Moderate",
+    "height": "Up to 10.2 hands"
   }
 }
 
-### PATCH (Update) dog using id
+### PATCH (Update) horse using id
 PATCH localhost:8080/horses/6541b05a240790ea94794333
 Content-Type: application/json
 
 {
-  "breed": "Labrador Retriever",
-  "size": "Large",
+  "breed": "TEST PATCH",
+  "size": "Small",
   "temperament": [
-    "Friendly",
-    "Outgoing",
-    "Even Tempered"
+    "Energetic",
+    "Intelligent",
+    "Strong-willed"
   ],
-  "life_span": "10-12 years",
+  "life_span": "20-30 years",
   "origin": "United Kingdom",
   "color": [
-    "Black",
-    "Yellow",
-    "Chocolate"
+    "Any color"
   ],
   "characteristics": {
-    "intelligence": "High",
-    "shedding_level": "Moderate",
-    "exercise_needs": "High"
+    "size": "Tiny",
+    "endurance": "Moderate",
+    "height": "Up to 10.2 hands"
   }
 }
 
-### DELETE dog from id
-DELETE localhost:8080/horses/6541b05a240790ea94794333
+### DELETE horse from id
+DELETE localhost:8080/horses/65552628ab65c84ca32045b3
 Content-Type: application/json

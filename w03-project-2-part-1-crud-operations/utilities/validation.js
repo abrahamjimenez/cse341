@@ -1,6 +1,6 @@
 const {body, validationResult} = require("express-validator");
 
-const dogRules = () => {
+const animalRules = () => {
   return [
     body('breed')
       .notEmpty()
@@ -46,6 +46,6 @@ const validate = (req, res, next) => {
 };
 
 module.exports = {
-  dogRules,
+  animalRules,
   validate
 };
