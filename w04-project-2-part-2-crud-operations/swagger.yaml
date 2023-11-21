@@ -1,0 +1,247 @@
+swagger: "2.0"
+info:
+  title: "Animals API"
+  description: "Information on animals"
+  version: "1.0.0"
+host: "localhost:8080"
+basePath: "/"
+schemes:
+  - "http"
+paths:
+  "/":
+    get:
+      description: "Get information about the Animals API"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+  "/dogs/":
+    get:
+      description: "Get a list of dogs"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+    post:
+      description: "Create a new dog"
+      parameters:
+        - name: "dogData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/DogData"
+      responses:
+        201:
+          description: "Created"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+  "/dogs/{id}":
+    get:
+      description: "Get information about a specific dog"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+    put:
+      description: "Update information about a specific dog"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+        - name: "dogData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/DogData"
+      responses:
+        200:
+          description: "OK"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+    patch:
+      description: "Partially update information about a specific dog"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+        - name: "dogData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/DogData"
+      responses:
+        200:
+          description: "OK"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+    delete:
+      description: "Delete a specific dog"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+  "/horses/":
+    get:
+      description: "Get a list of horses"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+    post:
+      description: "Create a new horse"
+      parameters:
+        - name: "horseData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/HorseData"
+      responses:
+        201:
+          description: "Created"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+  "/horses/{id}":
+    get:
+      description: "Get information about a specific horse"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+    put:
+      description: "Update information about a specific horse"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+        - name: "horseData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/HorseData"
+      responses:
+        200:
+          description: "OK"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+    patch:
+      description: "Partially update information about a specific horse"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+        - name: "horseData"
+          in: "body"
+          required: true
+          schema:
+            $ref: "#/definitions/HorseData"
+      responses:
+        200:
+          description: "OK"
+        422:
+          description: "Unprocessable Entity"
+        500:
+          description: "Internal Server Error"
+    delete:
+      description: "Delete a specific horse"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Internal Server Error"
+definitions:
+  DogData:
+    type: "object"
+    properties:
+      breed:
+        type: "string"
+      size:
+        type: "string"
+      temperament:
+        type: "array"
+        items:
+          type: "string"
+      life_span:
+        type: "string"
+      origin:
+        type: "string"
+      color:
+        type: "array"
+        items:
+          type: "string"
+      characteristics:
+        type: "object"
+        properties:
+          intelligence:
+            type: "string"
+          shedding_level:
+            type: "string"
+          exercise_needs:
+            type: "string"
+  HorseData:
+    type: "object"
+    properties:
+      breed:
+        type: "string"
+      size:
+        type: "string"
+      temperament:
+        type: "array"
+        items:
+          type: "string"
+      life_span:
+        type: "string"
+      origin:
+        type: "string"
+      color:
+        type: "array"
+        items:
+          type: "string"
+      characteristics:
+        type: "object"
+        properties:
+          intelligence:
+            type: "string"
+          shedding_level:
+            type: "string"
+          exercise_needs:
+            type: "string"

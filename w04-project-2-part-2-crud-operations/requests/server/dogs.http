@@ -1,0 +1,89 @@
+### GET all dogs
+GET localhost:8080/dogs
+Content-Type: application/json
+
+### GET dog from id
+GET localhost:8080/dogs/65559b45f434faccc651620a
+Content-Type: application/json
+
+### Add dog
+POST localhost:8080/dogs
+Content-Type: application/json
+
+{
+  "breed": "Shrek's Donkey",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### PUT (Update) dog using id
+PUT localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+
+{
+  "breed": "DONKEYYYY DOOOONKEEEY",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### PATCH (Update) dog using id
+PATCH localhost:8080/dogs/655593c45630b72d42acc6e2
+Content-Type: application/json
+
+{
+  "breed": "Shrek DOENDOENDOEDN",
+  "size": "Large",
+  "temperament": [
+    "Friendly",
+    "Outgoing",
+    "Even Tempered"
+  ],
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": [
+    "Black",
+    "Yellow",
+    "Chocolate"
+  ],
+  "characteristics": {
+    "intelligence": "High",
+    "shedding_level": "Moderate",
+    "exercise_needs": "High"
+  }
+}
+
+### DELETE dog from id
+DELETE localhost:8080/dogs/65559fd18994acd83a521298
+Content-Type: application/json
