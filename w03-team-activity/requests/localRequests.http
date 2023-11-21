@@ -1,5 +1,5 @@
 ### GET all users
-GET localhost:8080/test-error
+GET localhost:8080/users
 Content-Type: application/json
 
 ### GET user from id
@@ -11,7 +11,7 @@ POST localhost:8080/users
 Content-Type: application/json
 
 {
-	"firstName": "Me",
+	"firstName": "",
 	"lastName": "B",
 	"email": "c@gg.com",
 	"favoriteColor": "Hello",
