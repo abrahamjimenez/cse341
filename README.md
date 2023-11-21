@@ -10,5 +10,5 @@
 
 [W03 Activity](w03-team-activity)
 
-[W03 Project Part 1](w03-project-2-part-1-crud-operations)
+[W03 Project 2 Part 1](w03-project-2-part-1-crud-operations)
 
