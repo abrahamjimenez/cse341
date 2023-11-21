@@ -1,11 +1,11 @@
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
-	info: {
-		title: 'Contacts API',
-		description: 'Information on contacts'
-	},
-	host: 'localhost:8080'
+  info: {
+    title: 'Animals API',
+    description: 'Information on animals'
+  },
+  host: 'localhost:8080'
 };
 
 const outputFile = './swagger.yaml';
