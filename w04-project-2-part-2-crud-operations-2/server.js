@@ -1,10 +1,15 @@
 import express from "express"
 import dotenv from "dotenv"
+import swaggerUi from "swagger-ui-express"
+import swaggerDocument from "./utils/swagger-output.json" assert {type: "json"};
 import userRoutes from "./routes/userRoutes.js"
 
 dotenv.config()
 const app = express()
 const port = process.env.PORT || 5500
+
+// Swagger Middleware
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get("/", (req, res) => {
   res.send("API is running...")
