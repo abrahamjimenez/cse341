@@ -1,18 +1,18 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
-    "description": "Description",
+    "title": "Animals API",
+    "description": "Perform CRUD operations with animals!",
     "version": "1.0.0"
   },
   "host": "localhost:5500",
-  "basePath": "/",
+  "basePath": "/dashboard",
   "schemes": [
     "http"
   ],
   "paths": {
     "/": {
-      "post": {
+      "get": {
         "description": "",
         "responses": {
           "200": {
@@ -21,22 +21,310 @@
         }
       }
     },
-    "/login": {
-      "post": {
+    "/animals/dogs": {
+      "get": {
         "description": "",
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "characteristics": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       }
     },
-    "/logout": {
-      "post": {
+    "/animals/dogs/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "put": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "characteristics": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/animals/horses": {
+      "get": {
         "description": "",
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "characteristics": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/animals/horses/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "put": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "characteristics": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       }

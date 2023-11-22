@@ -4,6 +4,16 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
+<> 2023-11-22T164844.200.json
+
+###
+
+GET http://localhost:5500/dashboard/animals/dogs
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
 <> 2023-11-22T164549.200.json
 
 ###
