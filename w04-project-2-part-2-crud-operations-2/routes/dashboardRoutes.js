@@ -2,11 +2,12 @@ import express from "express";
 import {
   dashboard,
 } from "../controllers/dashboardController.js";
+import {ensureAuth} from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
 router
   .route("/")
-  .get(dashboard)
+  .get(ensureAuth, dashboard)
 
 export default router

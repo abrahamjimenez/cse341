@@ -3,7 +3,7 @@ import {
   googleAuthenticate,
   googleCallback,
   logout,
-  redirect
+  dashboardRedirect
 } from "../controllers/authController.js";
 
 const router = express.Router();
@@ -14,7 +14,7 @@ router
 
 router
   .route("/google/callback")
-  .get(googleCallback, redirect)
+  .get(googleCallback, dashboardRedirect)
 
 router
   .route("/logout")

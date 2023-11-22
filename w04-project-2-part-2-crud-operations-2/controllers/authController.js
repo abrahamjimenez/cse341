@@ -22,15 +22,15 @@ const googleCallback = async (req, res, next) => {
 const logout = (req, res) => {
   req.logout((err) => {
     if (err) {
-      console.log(err)
-      return res.status(500).json({message: "Something went wrong"})
+      console.log(err);
+      return res.status(500).json({message: "Something went wrong"});
     }
 
-    res.redirect("/")
-  })
-}
+    res.redirect("/");
+  });
+};
 
-const redirect = (req, res) => {
+const dashboardRedirect = (req, res) => {
   res.redirect("/")
 }
 
@@ -38,5 +38,5 @@ export {
   googleAuthenticate,
   googleCallback,
   logout,
-  redirect
+  dashboardRedirect
 }
