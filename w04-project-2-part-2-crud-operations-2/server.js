@@ -19,6 +19,10 @@ passportConfig(passport)
 // Connect to MongoDB
 connectDB()
 
+// Express Middleware
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
 // Sessions Middleware
 app.use(session({
   secret: 'keyboard cat',

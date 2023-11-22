@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const horseSchema = new Schema({
-  _id: Schema.Types.ObjectId,
   breed: String,
   size: String,
   temperament: [String],

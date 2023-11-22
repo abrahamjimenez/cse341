@@ -1,0 +1,63 @@
+### Get all horses
+GET localhost:5500/dashboard/animals/horses
+Accept: application/json
+
+### Get horse by id
+GET localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+Accept: application/json
+
+### Update horse
+PUT localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
+Content-Type: application/json
+
+{
+  "characteristics": {
+    "speed": "High",
+    "endurance": "Moderate",
+    "height": "14 to 16 hands"
+  },
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Medium",
+  "temperament": [
+    "Versatile",
+    "Sociable",
+    "Calm"
+  ],
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": [
+    "Sorrel",
+    "Bay",
+    "Black"
+  ]
+}
+
+### Create horse
+POST localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+
+{
+  "characteristics": {
+    "speed": "High",
+    "endurance": "Moderate",
+    "height": "14 to 16 hands"
+  },
+  "breed": "CREATE CREATE CREATE",
+  "size": "Medium",
+  "temperament": [
+    "Versatile",
+    "Sociable",
+    "Calm"
+  ],
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": [
+    "Sorrel",
+    "Bay",
+    "Black"
+  ]
+}
+
+### Delete horse
+DELETE localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
+Accept: application/json
