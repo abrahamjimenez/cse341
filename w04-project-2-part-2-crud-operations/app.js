@@ -1,6 +1,7 @@
 const express = require("express");
 const expressOasGenerator = require('express-oas-generator');
-
+const passport = require("passport");
+const passportConfig = require("./config/passportConfig");
 const {connectToDb, getDb} = require("./db/database");
 const dogRoutes = require("./routes/dogRoutes");
 const horseRoutes = require("./routes/horseRoutes");
@@ -9,6 +10,9 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 expressOasGenerator.init(app, {}); // Initialize express-oas-generator
+
+// Initialize passport
+app.use(passport.initialize(passportConfig));
 
 // Middleware for parsing application
 app.use(express.json());
