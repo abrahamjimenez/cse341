@@ -1,6 +1,7 @@
 ### GET all dogs
 GET localhost:8080/dogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJzb21lVXNlcklkIiwiaWF0IjoxNzAwNjI5NjQ0LCJleHAiOjE3MDA2MzMyNDR9.ARPxgfpXQkXKd8vSOou4msFNGqDI81k63KBkWFLLj1w
 
 ### GET dog from id
 GET localhost:8080/dogs/65559b45f434faccc651620a

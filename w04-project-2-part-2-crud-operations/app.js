@@ -5,6 +5,7 @@ const passportConfig = require("./config/passportConfig");
 const {connectToDb, getDb} = require("./db/database");
 const dogRoutes = require("./routes/dogRoutes");
 const horseRoutes = require("./routes/horseRoutes");
+const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -39,6 +40,8 @@ app.get("/", (req, res) => {
 app.use("/dogs", dogRoutes);
 
 app.use("/horses", horseRoutes)
+
+app.use("/user", userRoutes);
 
 app.listen(port, () => {
   console.log(`App listening on http://localhost:${port}`);
