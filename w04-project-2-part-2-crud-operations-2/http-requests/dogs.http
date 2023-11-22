@@ -1,0 +1,62 @@
+### Get all dogs
+GET localhost:5500/dashboard/animals/dogs
+Accept: application/json
+
+### Get dogs by id
+GET localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Accept: application/json
+
+### Update dog
+PUT localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Content-Type: application/json
+
+{
+  "characteristics": {
+    "intelligence": "Very High",
+    "shedding_level": "High",
+    "exercise_needs": "High"
+  },
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Large",
+  "temperament": [
+    "Confident",
+    "Courageous",
+    "Smart"
+  ],
+  "life_span": "9-13 years",
+  "origin": "Germany",
+  "color": [
+    "Black and Tan",
+    "Sable",
+    "Black"
+  ]
+}
+
+### Create dog
+POST localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+
+{
+  "characteristics": {
+    "intelligence": "Very High",
+    "shedding_level": "High",
+    "exercise_needs": "High"
+  },
+  "breed": "CREATE CREATE CREATE",
+  "size": "Large",
+  "temperament": [
+    "Confident",
+    "Courageous",
+    "Smart"
+  ],
+  "life_span": "9-13 years",
+  "origin": "Germany",
+  "color": [
+    "Black and Tan",
+    "Sable",
+    "Black"
+  ]
+}
+
+### Delete dog
+DELETE localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
