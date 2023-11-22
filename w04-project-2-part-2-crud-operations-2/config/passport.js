@@ -17,7 +17,7 @@ export default function (passport) {
       }
 
       try {
-        let user = await User.findOne({googleId: profile.Id})
+        let user = await User.findOne({googleId: profile.id})
 
         if (user) {
           done(null, user)
