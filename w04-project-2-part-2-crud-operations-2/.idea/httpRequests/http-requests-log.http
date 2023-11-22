@@ -1,3 +1,63 @@
+GET http://localhost:5500/dashboard/animals/dogs
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164549.200.json
+
+###
+
+DELETE http://localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164514.200.json
+
+###
+
+DELETE http://localhost:5500/dashboard/animals/horses/655e85b7fb3bca04e559aa87
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164507.200.json
+
+###
+
+DELETE http://localhost:5500/dashboard/animals/horses/655e8220d67efb2b2b8bf334
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164500.404.json
+
+###
+
+DELETE http://localhost:5500/dashboard/animals/horses/655e8220d67efb2b2b8bf334
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164458.200.json
+
+###
+
+GET http://localhost:5500/dashboard/animals/horses
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T164409.200.json
+
+###
+
 DELETE http://localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
