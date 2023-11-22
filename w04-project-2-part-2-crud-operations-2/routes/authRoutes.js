@@ -2,6 +2,7 @@ import express from "express";
 import {
   googleAuthenticate,
   googleCallback,
+  logout,
   redirect
 } from "../controllers/authController.js";
 
@@ -14,5 +15,9 @@ router
 router
   .route("/google/callback")
   .get(googleCallback, redirect)
+
+router
+  .route("/logout")
+  .get(logout)
 
 export default router
