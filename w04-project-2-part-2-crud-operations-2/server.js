@@ -5,6 +5,7 @@ import swaggerDocument from "./utils/swagger-output.json" assert {type: "json"};
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoutes.js"
 import authRoutes from "./routes/authRoutes.js"
+import dashboardRoutes from "./routes/dashboardRoutes.js"
 import session from "express-session"
 import passport from "passport"
 import passportConfig from "./config/passport.js";
@@ -37,6 +38,7 @@ app.get("/", (req, res) => {
   res.send("API is running...")
 });
 
+app.use("/dashboard", dashboardRoutes);
 app.use("/users", userRoutes);
 app.use("/auth", authRoutes);
 
