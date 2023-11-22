@@ -3,7 +3,6 @@ import dotenv from "dotenv"
 import swaggerUi from "swagger-ui-express"
 import swaggerDocument from "./utils/swagger-output.json" assert {type: "json"};
 import connectDB from "./config/db.js";
-import userRoutes from "./routes/userRoutes.js"
 import authRoutes from "./routes/authRoutes.js"
 import dashboardRoutes from "./routes/dashboardRoutes.js"
 import session from "express-session"
@@ -39,7 +38,6 @@ app.get("/", (req, res) => {
 });
 
 app.use("/dashboard", dashboardRoutes);
-app.use("/users", userRoutes);
 app.use("/auth", authRoutes);
 
 app.listen(port, () => {
