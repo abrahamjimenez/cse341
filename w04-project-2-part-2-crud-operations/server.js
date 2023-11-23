@@ -9,6 +9,7 @@ import session from "express-session"
 import MongoStore from "connect-mongo"
 import passport from "passport"
 import passportConfig from "./config/passport.js";
+import cors from "cors"
 
 dotenv.config()
 const app = express()
@@ -19,6 +20,9 @@ passportConfig(passport)
 
 // Connect to MongoDB
 connectDB()
+
+// CORS Middleware
+app.use(cors())
 
 // Express Middleware
 app.use(express.json())

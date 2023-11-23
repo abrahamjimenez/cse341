@@ -5,8 +5,13 @@ const doc = {
     title: 'Animals API',
     description: 'Perform CRUD operations with animals!'
   },
-  host: 'localhost:5500',
-  basePath: '/dashboard'
+  // host: 'localhost:5500',
+  host: 'cse341-r5ip.onrender.com',
+  basePath: '/dashboard',
+  schemes: [
+    'http',
+    'https'
+  ],
 };
 
 const outputFile = './swagger-output.json';

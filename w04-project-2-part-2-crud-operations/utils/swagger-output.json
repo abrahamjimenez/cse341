@@ -5,10 +5,11 @@
     "description": "Perform CRUD operations with animals!",
     "version": "1.0.0"
   },
-  "host": "localhost:5500",
+  "host": "cse341-r5ip.onrender.com",
   "basePath": "/dashboard",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/animals/dogs": {
