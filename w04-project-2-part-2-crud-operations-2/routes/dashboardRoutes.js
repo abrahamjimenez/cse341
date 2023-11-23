@@ -22,26 +22,59 @@ const router = express.Router();
 
 router
   .route("/")
-  .get(ensureAuth, dashboard)
+  .get(
+    // #swagger.ignore = true
+    ensureAuth, dashboard
+  )
 
 router
   .route("/animals/dogs")
-  .get(getAllDogs)
-  .post(ensureAuth, createDog)
+  .get(
+    // #swagger.tags = ['Dogs']
+    getAllDogs
+  )
+  .post(
+    // #swagger.tags = ['Dogs']
+    ensureAuth, createDog
+  )
 
 router.route("/animals/dogs/:id")
-  .get(getDogById)
-  .put(ensureAuth, updateDog)
-  .delete(ensureAuth, deleteDog)
+  .get(
+    // #swagger.tags = ['Dogs']
+    getDogById
+  )
+  .put(
+    // #swagger.tags = ['Dogs']
+    ensureAuth, updateDog
+  )
+  .delete(
+    // #swagger.tags = ['Dogs']
+    ensureAuth, deleteDog
+  )
 
 router
   .route("/animals/horses")
-  .get(getAllHorses)
-  .post(ensureAuth, createHorse)
+  .get(
+    // #swagger.tags = ['Horses']
+    getAllHorses
+  )
+  .post(
+    // #swagger.tags = ['Horses']
+    ensureAuth, createHorse
+  )
 
 router.route("/animals/horses/:id")
-  .get(getHorseById)
-  .put(ensureAuth, updateHorse)
-  .delete(ensureAuth, deleteHorse)
+  .get(
+    // #swagger.tags = ['Horses']
+    getHorseById
+  )
+  .put(
+    // #swagger.tags = ['Horses']
+    ensureAuth, updateHorse
+  )
+  .delete(
+    // #swagger.tags = ['Horses']
+    ensureAuth, deleteHorse
+  )
 
 export default router
