@@ -1,37 +1,27 @@
 {
-  "name": "cse341-ww-student-code-w01-2-team-frontendstart",
+  "name": "w04-project-2-part-2-crud-operations-2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abrahamjimenez/cse341.git"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "swagger": "node utils/swagger.js"
   },
   "author": "Abraham Jimenez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abrahamjimenez/cse341/issues"
-  },
-  "homepage": "https://github.com/abrahamjimenez/cse341#readme",
   "dependencies": {
-    "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-oas-generator": "^1.0.46",
+    "express-session": "^1.17.3",
     "express-validator": "^7.0.1",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.2.0",
     "mongoose": "^8.0.1",
-    "nodemon": "^3.0.1",
     "passport": "^0.6.0",
-    "passport-http-bearer": "^1.0.1",
-    "swagger-autogen": "^2.23.7",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0",
-    "yamljs": "^0.3.0"
+    "passport-google-oauth20": "^2.0.0",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
   }
 }

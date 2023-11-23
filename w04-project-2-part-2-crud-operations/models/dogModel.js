@@ -1,22 +1,18 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
-const DogSchema = new Schema({
-  _id: Schema.Types.ObjectId,
+const dogSchema = new Schema({
   breed: String,
   size: String,
-  temperament: [String],
+  temperament: String,
   life_span: String,
   origin: String,
-  color: [String],
-  characteristics: {
-    intelligence: String,
-    shedding_level: String,
-    exercise_needs: String
-  },
-  token: String
+  color: String,
+  intelligence: String,
+  shedding_level: String,
+  exercise_needs: String
 });
 
-const Dog = mongoose.model('Dog', DogSchema);
+const Dog = mongoose.model('Dog', dogSchema);
 
-module.exports = Dog;
+export default Dog;

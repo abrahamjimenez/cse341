@@ -1,21 +1,18 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const horseSchema = new Schema({
-  _id: Schema.Types.ObjectId,
   breed: String,
   size: String,
-  temperament: [String],
+  temperament: String,
   life_span: String,
   origin: String,
-  color: [String],
-  characteristics: {
-    intelligence: String,
-    shedding_level: String,
-    exercise_needs: String
-  }
+  color: String,
+  intelligence: String,
+  shedding_level: String,
+  exercise_needs: String
 });
 
 const Horse = mongoose.model('Horse', horseSchema);
 
-module.exports = Horse;
+export default Horse;
