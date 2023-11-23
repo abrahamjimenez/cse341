@@ -6,6 +6,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js"
 import dashboardRoutes from "./routes/dashboardRoutes.js"
 import session from "express-session"
+import MongoStore from "connect-mongo"
 import passport from "passport"
 import passportConfig from "./config/passport.js";
 
@@ -28,6 +29,7 @@ app.use(session({
   secret: 'keyboard cat',
   resave: false,
   saveUninitialized: false,
+  store: MongoStore.create({mongoUrl: process.env.MONGO_URI}),
 }))
 
 // Passport Middleware
