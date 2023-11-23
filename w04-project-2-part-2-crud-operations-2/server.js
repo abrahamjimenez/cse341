@@ -38,7 +38,7 @@ app.use(passport.session())
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get("/", (req, res) => {
-  res.send("API is running...")
+  res.send(`Please login at /auth/google`)
 });
 
 app.use("/dashboard", dashboardRoutes);

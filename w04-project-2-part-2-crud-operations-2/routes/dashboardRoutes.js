@@ -27,21 +27,21 @@ router
 router
   .route("/animals/dogs")
   .get(getAllDogs)
-  .post(createDog)
+  .post(ensureAuth, createDog)
 
 router.route("/animals/dogs/:id")
   .get(getDogById)
-  .put(updateDog)
-  .delete(deleteDog)
+  .put(ensureAuth, updateDog)
+  .delete(ensureAuth, deleteDog)
 
 router
   .route("/animals/horses")
   .get(getAllHorses)
-  .post(createHorse)
+  .post(ensureAuth, createHorse)
 
 router.route("/animals/horses/:id")
   .get(getHorseById)
-  .put(updateHorse)
-  .delete(deleteHorse)
+  .put(ensureAuth, updateHorse)
+  .delete(ensureAuth, deleteHorse)
 
 export default router
