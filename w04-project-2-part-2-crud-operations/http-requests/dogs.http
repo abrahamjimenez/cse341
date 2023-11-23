@@ -1,0 +1,42 @@
+### Get all dogs
+GET localhost:5500/dashboard/animals/dogs
+Accept: application/json
+
+### Get dogs by id
+GET localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Accept: application/json
+
+### Create dog
+POST localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "High",
+  "exercise_needs": "Moderate",
+  "breed": "Labrador Retriever",
+  "size": "Large",
+  "temperament": "Outgoing",
+  "life_span": "10-14 years",
+  "origin": "Canada",
+  "color": "Yellow"
+}
+
+### Update dog
+PUT localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Content-Type: application/json
+
+{
+  "intelligence": "High",
+  "shedding_level": "Moderate",
+  "exercise_needs": "Moderate",
+  "breed": "German Shepherd",
+  "size": "Large",
+  "temperament": "Loyal",
+  "life_span": "10-12 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+### Delete dog
+DELETE localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd

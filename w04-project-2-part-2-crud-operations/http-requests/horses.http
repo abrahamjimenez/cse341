@@ -1,0 +1,43 @@
+### Get all horses
+GET localhost:5500/dashboard/animals/horses
+Accept: application/json
+
+### Get horse by id
+GET localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+Accept: application/json
+
+### Create horse
+POST localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "14.2 hands",
+  "breed": "Welsh Pony",
+  "size": "Small",
+  "temperament": "Lively",
+  "life_span": "20-25 years",
+  "origin": "United Kingdom",
+  "color": "Palomino"
+}
+
+### Update horse
+PUT localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
+Content-Type: application/json
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "15 hands",
+  "breed": "Thoroughbred",
+  "size": "Medium",
+  "temperament": "Energetic",
+  "life_span": "25-30 years",
+  "origin": "United Kingdom",
+  "color": "Bay"
+}
+
+### Delete horse
+DELETE localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+Accept: application/json

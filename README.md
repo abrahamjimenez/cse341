@@ -12,3 +12,4 @@
 
 [W03 Project 2 Part 1](w03-project-2-part-1-crud-operations)
 
+[W04 Project 2 Part 2](w04-project-2-part-2-crud-operations)

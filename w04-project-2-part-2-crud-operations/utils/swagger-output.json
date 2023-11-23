@@ -1,0 +1,392 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Animals API",
+    "description": "Perform CRUD operations with animals!",
+    "version": "1.0.0"
+  },
+  "host": "localhost:5500",
+  "basePath": "/dashboard",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/animals/dogs": {
+      "get": {
+        "tags": [
+          "Dogs"
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dogs"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "intelligence": {
+                  "example": "any"
+                },
+                "shedding_level": {
+                  "example": "any"
+                },
+                "exercise_needs": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/animals/dogs/{id}": {
+      "get": {
+        "tags": [
+          "Dogs"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dogs"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "intelligence": {
+                  "example": "any"
+                },
+                "shedding_level": {
+                  "example": "any"
+                },
+                "exercise_needs": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dogs"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/animals/horses": {
+      "get": {
+        "tags": [
+          "Horses"
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Horses"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "speed": {
+                  "example": "any"
+                },
+                "endurance": {
+                  "example": "any"
+                },
+                "height": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/animals/horses/{id}": {
+      "get": {
+        "tags": [
+          "Horses"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Horses"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "breed": {
+                  "example": "any"
+                },
+                "size": {
+                  "example": "any"
+                },
+                "temperament": {
+                  "example": "any"
+                },
+                "life_span": {
+                  "example": "any"
+                },
+                "origin": {
+                  "example": "any"
+                },
+                "color": {
+                  "example": "any"
+                },
+                "speed": {
+                  "example": "any"
+                },
+                "endurance": {
+                  "example": "any"
+                },
+                "height": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Horses"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  }
+}
