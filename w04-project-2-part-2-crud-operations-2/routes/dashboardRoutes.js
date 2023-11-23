@@ -17,7 +17,7 @@ import {
   deleteHorse,
 } from "../controllers/horsesController.js"
 import {ensureAuth} from "../middleware/authMiddleware.js";
-import {dogValidationRoutes, validate} from "../middleware/validatorMiddleware.js";
+import {dogValidationRoutes, horseValidationRoutes, validate} from "../middleware/validatorMiddleware.js";
 
 const router = express.Router();
 
@@ -67,8 +67,8 @@ router
   )
   .post(
     // #swagger.tags = ['Horses']
-    ensureAuth,
-    dogValidationRoutes(),
+    // ensureAuth,
+    horseValidationRoutes(),
     validate,
     createHorse
   )
@@ -81,14 +81,14 @@ router.route("/animals/horses/:id")
   .put(
     // #swagger.tags = ['Horses']
     ensureAuth,
-    dogValidationRoutes(),
+    horseValidationRoutes(),
     validate,
     updateHorse
   )
   .delete(
     // #swagger.tags = ['Horses']
     ensureAuth,
-    dogValidationRoutes(),
+    horseValidationRoutes(),
     validate,
     deleteHorse
   )

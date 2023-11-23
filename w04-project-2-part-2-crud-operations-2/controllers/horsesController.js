@@ -34,7 +34,7 @@ const getHorseById = async (req, res) => {
 // @access    Private
 const createHorse = async (req, res) => {
   try {
-    const {breed, size, temperament, life_span, origin, color, characteristics} = req.body;
+    const {breed, size, temperament, life_span, origin, color, speed, endurance, height} = req.body;
 
     const horse = new Horse({
       breed,
@@ -43,7 +43,9 @@ const createHorse = async (req, res) => {
       life_span,
       origin,
       color,
-      characteristics
+      speed,
+      endurance,
+      height
     });
 
     const createdHorse = await horse.save();
@@ -59,7 +61,7 @@ const createHorse = async (req, res) => {
 // @access    Private
 const updateHorse = async (req, res) => {
   try {
-    const {breed, size, temperament, life_span, origin, color, characteristics} = req.body;
+    const {breed, size, temperament, life_span, origin, color, speed, endurance, height} = req.body;
 
     const horse = await Horse.findById(req.params.id);
 
@@ -70,7 +72,9 @@ const updateHorse = async (req, res) => {
       horse.life_span = life_span;
       horse.origin = origin;
       horse.color = color;
-      horse.characteristics = characteristics;
+      horse.speed = speed;
+      horse.endurance = endurance;
+      horse.height = height;
 
       const updatedHorse = await horse.save();
 

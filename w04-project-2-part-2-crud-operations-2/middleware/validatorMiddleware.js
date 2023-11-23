@@ -41,6 +41,47 @@ const dogValidationRoutes = () => {
   ];
 };
 
+const horseValidationRoutes = () => {
+  return [
+    body('breed')
+      .isString()
+      .notEmpty()
+      .withMessage("Breed needs to be a string"),
+    body('size')
+      .isString()
+      .notEmpty()
+      .withMessage("Size needs to be a string"),
+    body('temperament')
+      .isString()
+      .notEmpty()
+      .withMessage("Temperament needs to be a string"),
+    body('life_span')
+      .isString()
+      .notEmpty()
+      .withMessage("Life span needs to be a string"),
+    body("origin")
+      .isString()
+      .notEmpty()
+      .withMessage("Origin needs to be a string"),
+    body("color")
+      .isString()
+      .notEmpty()
+      .withMessage("Color needs to be a string"),
+    body("speed")
+      .isString()
+      .notEmpty()
+      .withMessage("Speed needs to be a string"),
+    body("endurance")
+      .isString()
+      .notEmpty()
+      .withMessage("Endurance level needs to be a string"),
+    body("height")
+      .isString()
+      .notEmpty()
+      .withMessage("Height needs needs to be a string")
+  ];
+};
+
 const validate = (req, res, next) => {
   const errors = validationResult(req);
 
@@ -57,5 +98,6 @@ const validate = (req, res, next) => {
 
 export {
   dogValidationRoutes,
+  horseValidationRoutes,
   validate,
 };

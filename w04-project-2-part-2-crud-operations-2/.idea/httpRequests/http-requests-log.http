@@ -1,3 +1,115 @@
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 223
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "Moderate",
+  "height": "14 to 16 hands",
+  "breed": "UPDATE UPDATE UPDATE",
+  "temperament": "Versatile",
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": "Sorrel"
+}
+
+<> 2023-11-22T225430.422.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 243
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "Moderate",
+  "height": "14 to 16 hands",
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Medium",
+  "temperament": "Versatile",
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": "Sorrel"
+}
+
+<> 2023-11-22T225425.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "Moderate",
+  "height": "14 to 16 hands",
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Medium",
+  "temperament": "Versatile",
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": "Sorrel"
+}
+
+<> 2023-11-22T225414.200.html
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 243
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "Moderate",
+  "height": "14 to 16 hands",
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Medium",
+  "temperament": "Versatile",
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": "Sorrel"
+}
+
+<> 2023-11-22T225051.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "Moderate",
+  "height": "14 to 16 hands",
+  "breed": "UPDATE UPDATE UPDATE",
+  "size": "Medium",
+  "temperament": "Versatile",
+  "life_span": "25-30 years",
+  "origin": "United States",
+  "color": "Sorrel"
+}
+
+<> 2023-11-22T224916.200.html
+
+###
+
 POST http://localhost:5500/dashboard/animals/dogs
 Content-Type: application/json
 Content-Length: 222
