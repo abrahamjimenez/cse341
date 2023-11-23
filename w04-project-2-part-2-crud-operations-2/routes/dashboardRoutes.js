@@ -67,7 +67,7 @@ router
   )
   .post(
     // #swagger.tags = ['Horses']
-    // ensureAuth,
+    ensureAuth,
     horseValidationRoutes(),
     validate,
     createHorse
