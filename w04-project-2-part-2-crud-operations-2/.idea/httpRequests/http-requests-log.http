@@ -1,5 +1,586 @@
 POST http://localhost:5500/dashboard/animals/horses
 Content-Type: application/json
+Content-Length: 230
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "14.2 hands",
+  "breed": "Welsh Pony",
+  "size": "Small",
+  "temperament": "Lively",
+  "life_span": "20-25 years",
+  "origin": "United Kingdom",
+  "color": "Palomino"
+}
+
+<> 2023-11-22T231026.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 223
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "15.3 hands",
+  "breed": "Paso Fino",
+  "size": "Medium",
+  "temperament": "Smooth Gaited",
+  "life_span": "25-30 years",
+  "origin": "Puerto Rico",
+  "color": "Bay"
+}
+
+<> 2023-11-22T231019.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 250
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "15.1 hands",
+  "breed": "Tennessee Walking Horse",
+  "size": "Medium",
+  "temperament": "Smooth Gaited",
+  "life_span": "20-25 years",
+  "origin": "United States",
+  "color": "Chestnut"
+}
+
+<> 2023-11-22T231012.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "16 hands",
+  "breed": "Friesian",
+  "size": "Large",
+  "temperament": "Gentle",
+  "life_span": "25-30 years",
+  "origin": "Netherlands",
+  "color": "Black"
+}
+
+<> 2023-11-22T231004.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "14.3 hands",
+  "breed": "Appaloosa",
+  "size": "Medium",
+  "temperament": "Adaptable",
+  "life_span": "20-25 years",
+  "origin": "United States",
+  "color": "Spotted Blanket"
+}
+
+<> 2023-11-22T230958.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 214
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "15.3 hands",
+  "breed": "Andalusian",
+  "size": "Medium",
+  "temperament": "Graceful",
+  "life_span": "25-30 years",
+  "origin": "Spain",
+  "color": "Gray"
+}
+
+<> 2023-11-22T230948.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 223
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "15.2 hands",
+  "breed": "Morgan",
+  "size": "Medium",
+  "temperament": "Steady",
+  "life_span": "20-25 years",
+  "origin": "United States",
+  "color": "Black"
+}
+
+<> 2023-11-22T230941.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 224
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "16 hands",
+  "breed": "Arabian",
+  "size": "Medium",
+  "temperament": "Intelligent",
+  "life_span": "25-30 years",
+  "origin": "Arabian Peninsula",
+  "color": "Gray"
+}
+
+<> 2023-11-22T230933.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 236
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "14.2 hands",
+  "breed": "Quarter Horse",
+  "size": "Medium",
+  "temperament": "Versatile",
+  "life_span": "20-25 years",
+  "origin": "United States",
+  "color": "Chestnut"
+}
+
+<> 2023-11-22T230926.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+Content-Length: 223
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "speed": "High",
+  "endurance": "High",
+  "height": "15 hands",
+  "breed": "Thoroughbred",
+  "size": "Medium",
+  "temperament": "Energetic",
+  "life_span": "25-30 years",
+  "origin": "United Kingdom",
+  "color": "Bay"
+}
+
+<> 2023-11-22T230910.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 244
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "High",
+  "exercise_needs": "Moderate",
+  "breed": "Labrador Retriever",
+  "size": "Large",
+  "temperament": "Outgoing",
+  "life_span": "10-14 years",
+  "origin": "Canada",
+  "color": "Yellow"
+}
+
+<> 2023-11-22T230757.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 260
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Low",
+  "exercise_needs": "High",
+  "breed": "Australian Shepherd",
+  "size": "Medium to Large",
+  "temperament": "Energetic",
+  "life_span": "12-15 years",
+  "origin": "United States",
+  "color": "Blue Merle"
+}
+
+<> 2023-11-22T230750.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 257
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "Moderate",
+  "exercise_needs": "Moderate",
+  "breed": "Beagle",
+  "size": "Small to Medium",
+  "temperament": "Friendly",
+  "life_span": "10-15 years",
+  "origin": "United Kingdom",
+  "color": "Tri-color"
+}
+
+<> 2023-11-22T230743.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Low",
+  "exercise_needs": "High",
+  "breed": "Poodle",
+  "size": "Miniature",
+  "temperament": "Intelligent",
+  "life_span": "12-15 years",
+  "origin": "Germany",
+  "color": "Various"
+}
+
+<> 2023-11-22T230736.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 226
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "Low",
+  "exercise_needs": "Low",
+  "breed": "Dachshund",
+  "size": "Small",
+  "temperament": "Curious",
+  "life_span": "12-16 years",
+  "origin": "Germany",
+  "color": "Red"
+}
+
+<> 2023-11-22T230729.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 248
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Moderate",
+  "exercise_needs": "High",
+  "breed": "Golden Retriever",
+  "size": "Large",
+  "temperament": "Friendly",
+  "life_span": "10-12 years",
+  "origin": "United Kingdom",
+  "color": "Golden"
+}
+
+<> 2023-11-22T230720.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "High",
+  "exercise_needs": "Moderate",
+  "breed": "Siberian Husky",
+  "size": "Medium to Large",
+  "temperament": "Outgoing",
+  "life_span": "12-14 years",
+  "origin": "Russia",
+  "color": "Black and White"
+}
+
+<> 2023-11-22T230712.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 259
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "High",
+  "exercise_needs": "Moderate",
+  "breed": "Siberian Husky",
+  "size": "Medium to Large",
+  "temperament": "Outgoing",
+  "life_span": "12-14 years",
+  "origin": "Russia",
+  "color": "Black and White"
+}
+
+<> 2023-11-22T230705.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 250
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Very High",
+  "shedding_level": "Low",
+  "exercise_needs": "High",
+  "breed": "Border Collie",
+  "size": "Medium",
+  "temperament": "Intelligent",
+  "life_span": "12-16 years",
+  "origin": "United Kingdom",
+  "color": "Various"
+}
+
+<> 2023-11-22T230655.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 233
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "Low",
+  "exercise_needs": "Low",
+  "breed": "French Bulldog",
+  "size": "Small",
+  "temperament": "Adaptable",
+  "life_span": "10-14 years",
+  "origin": "France",
+  "color": "Fawn"
+}
+
+<> 2023-11-22T230643.201.json
+
+###
+
+PUT http://localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Content-Type: application/json
+Content-Length: 233
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Medium",
+  "shedding_level": "Low",
+  "exercise_needs": "Low",
+  "breed": "French Bulldog",
+  "size": "Small",
+  "temperament": "Adaptable",
+  "life_span": "10-14 years",
+  "origin": "France",
+  "color": "Fawn"
+}
+
+<> 2023-11-22T230635.404.json
+
+###
+
+GET http://localhost:5500/dashboard/animals/dogs
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T230622.200.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 248
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Moderate",
+  "exercise_needs": "Moderate",
+  "breed": "German Shepherd",
+  "size": "Large",
+  "temperament": "Loyal",
+  "life_span": "10-12 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+<> 2023-11-22T230618.201.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Moderate",
+  "exercise_needs": "Moderate",
+  "breed": "German Shepherd",
+  "size": "Large",
+  "temperament": "Loyal",
+  "life_span": "10-12 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+<> 2023-11-22T230515.200.html
+
+###
+
+GET http://localhost:5500/dashboard/animals/dogs
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T230459.200.json
+
+###
+
+PUT http://localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+Content-Type: application/json
+Content-Length: 248
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "High",
+  "shedding_level": "Moderate",
+  "exercise_needs": "Moderate",
+  "breed": "German Shepherd",
+  "size": "Large",
+  "temperament": "Loyal",
+  "life_span": "10-12 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+<> 2023-11-22T230442.302.txt
+
+###
+
+GET http://localhost:5500/dashboard/animals/dogs
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T230434.200.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/horses
+Content-Type: application/json
 Content-Length: 223
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
@@ -402,530 +983,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-11-22T162323.200.html
-
-###
-
-GET http://localhost:5500/dashboard/animals/dogs
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T162255.200.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/dogs
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T162132.200.html
-
-###
-
-DELETE http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155955.404.json
-
-###
-
-DELETE http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155709.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Content-Type: application/json
-Content-Length: 348
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "UPDATE UPDATE UPDATE",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155358.201.json
-
-###
-
-DELETE http://localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155323.200.html
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155310.200.json
-
-###
-
-POST http://localhost:5500/dashboard/animals/horses
-Content-Type: application/json
-Content-Length: 348
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "CREATE CREATE CREATE",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155302.201.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155244.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Content-Type: application/json
-Content-Length: 348
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "UPDATE UPDATE UPDATE",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155237.200.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155211.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 348
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "UPDATE UPDATE UPDATE",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155204.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155038.200.json
-
-###
-
-POST http://localhost:5500/dashboard/animals/horses
-Content-Type: application/json
-Content-Length: 334
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "SHREKK",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T155031.201.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T155019.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T154947.200.json
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-###
-
-PUT http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Content-Length: 340
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "Update Horse",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T154214.200.html
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T154202.200.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T153551.200.json
-
-###
-
-POST http://localhost:5500/dashboard/animals/horses
-Content-Type: application/json
-Content-Length: 334
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "characteristics": {
-    "speed": "High",
-    "endurance": "Moderate",
-    "height": "14 to 16 hands"
-  },
-  "breed": "SHREKK",
-  "size": "Medium",
-  "temperament": [
-    "Versatile",
-    "Sociable",
-    "Calm"
-  ],
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": [
-    "Sorrel",
-    "Bay",
-    "Black"
-  ]
-}
-
-<> 2023-11-22T153512.201.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses/65552628ab65c84ca32045b5
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T153043.200.json
-
-###
-
-GET http://localhost:5500/dashboard/animals/horses
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-22T153020.200.json
 
 ###
 

@@ -6,36 +6,36 @@ Accept: application/json
 GET localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
 Accept: application/json
 
+### Create horse
+POST localhost:5500/dashboard/animals/horses
+Content-Type: application/json
+
+{
+  "speed": "Medium",
+  "endurance": "Moderate",
+  "height": "14.2 hands",
+  "breed": "Welsh Pony",
+  "size": "Small",
+  "temperament": "Lively",
+  "life_span": "20-25 years",
+  "origin": "United Kingdom",
+  "color": "Palomino"
+}
+
 ### Update horse
 PUT localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
 Content-Type: application/json
 
 {
   "speed": "High",
-  "endurance": "Moderate",
-  "height": "14 to 16 hands",
-  "breed": "UPDATE UPDATE UPDATE",
+  "endurance": "High",
+  "height": "15 hands",
+  "breed": "Thoroughbred",
   "size": "Medium",
-  "temperament": "Versatile",
+  "temperament": "Energetic",
   "life_span": "25-30 years",
-  "origin": "United States",
-  "color": "Sorrel"
-}
-
-### Create horse
-POST localhost:5500/dashboard/animals/horses
-Content-Type: application/json
-
-{
-  "speed": "High",
-  "endurance": "Moderate",
-  "height": "14 to 16 hands",
-  "breed": "UPDATE UPDATE UPDATE",
-  "size": "Medium",
-  "temperament": "Versatile",
-  "life_span": "25-30 years",
-  "origin": "United States",
-  "color": "Sorrel"
+  "origin": "United Kingdom",
+  "color": "Bay"
 }
 
 ### Delete horse
