@@ -12,8 +12,7 @@ const dogSchema = new Schema({
     intelligence: String,
     shedding_level: String,
     exercise_needs: String
-  },
-  token: String
+  }
 });
 
 const Dog = mongoose.model('Dog', dogSchema);
