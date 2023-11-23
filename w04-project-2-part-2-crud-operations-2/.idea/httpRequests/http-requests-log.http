@@ -1,3 +1,48 @@
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 222
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "shedding_level": "High",
+  "exercise_needs": "High",
+  "breed": "CREATE CREATE CREATE",
+  "size": "Large",
+  "temperament": "Confident",
+  "life_span": "9-13 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+<> 2023-11-22T223745.422.json
+
+###
+
+POST http://localhost:5500/dashboard/animals/dogs
+Content-Type: application/json
+Content-Length: 253
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "intelligence": "Very High",
+  "shedding_level": "High",
+  "exercise_needs": "High",
+  "breed": "CREATE CREATE CREATE",
+  "size": "Large",
+  "temperament": "Confident",
+  "life_span": "9-13 years",
+  "origin": "Germany",
+  "color": "Black and Tan"
+}
+
+<> 2023-11-22T220304.201.json
+
+###
+
 GET http://localhost:5500/dashboard/animals/dogs
 Accept: application/json
 Connection: Keep-Alive

@@ -34,7 +34,7 @@ const getDogById = async (req, res) => {
 // @access    Private
 const createDog = async (req, res) => {
   try {
-    const {breed, size, temperament, life_span, origin, color, characteristics} = req.body;
+    const {breed, size, temperament, life_span, origin, color, intelligence, shedding_level, exercise_needs} = req.body;
 
     const dog = new Dog({
       breed,
@@ -43,7 +43,9 @@ const createDog = async (req, res) => {
       life_span,
       origin,
       color,
-      characteristics
+      intelligence,
+      shedding_level,
+      exercise_needs,
     });
 
     const createDog = await dog.save();
@@ -59,7 +61,7 @@ const createDog = async (req, res) => {
 // @access    Private
 const updateDog = async (req, res) => {
   try {
-    const {breed, size, temperament, life_span, origin, color, characteristics} = req.body;
+    const {breed, size, temperament, life_span, origin, color, intelligence, shedding_level, exercise_needs} = req.body;
 
     const dog = await Dog.findById(req.params.id);
 
@@ -70,7 +72,9 @@ const updateDog = async (req, res) => {
       dog.life_span = life_span;
       dog.origin = origin;
       dog.color = color;
-      dog.characteristics = characteristics;
+      intelligence.intelligence = intelligence
+      shedding_level.shedding_level = shedding_level;
+      exercise_needs.exercise_needs = exercise_needs;
 
       const updatedDog = await dog.save();
 

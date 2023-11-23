@@ -56,7 +56,13 @@
                 "color": {
                   "example": "any"
                 },
-                "characteristics": {
+                "intelligence": {
+                  "example": "any"
+                },
+                "shedding_level": {
+                  "example": "any"
+                },
+                "exercise_needs": {
                   "example": "any"
                 }
               }
@@ -66,6 +72,9 @@
         "responses": {
           "201": {
             "description": "Created"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
           },
           "500": {
             "description": "Internal Server Error"
@@ -135,7 +144,13 @@
                 "color": {
                   "example": "any"
                 },
-                "characteristics": {
+                "intelligence": {
+                  "example": "any"
+                },
+                "shedding_level": {
+                  "example": "any"
+                },
+                "exercise_needs": {
                   "example": "any"
                 }
               }
