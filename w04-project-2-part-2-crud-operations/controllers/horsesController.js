@@ -63,21 +63,20 @@ const updateHorse = async (req, res) => {
   try {
     const {breed, size, temperament, life_span, origin, color, speed, endurance, height} = req.body;
 
-    const horse = await Horse.findById(req.params.id);
+    const horse = await Horse.findById(req.params.id, {
+      breed,
+      size,
+      temperament,
+      life_span,
+      origin,
+      color,
+      speed,
+      endurance,
+      height
+    }, {new: true});
 
     if (horse) {
-      horse.breed = breed;
-      horse.size = size;
-      horse.temperament = temperament;
-      horse.life_span = life_span;
-      horse.origin = origin;
-      horse.color = color;
-      horse.speed = speed;
-      horse.endurance = endurance;
-      horse.height = height;
-
       const updatedHorse = await horse.save();
-
       res.status(201).json(updatedHorse);
     } else {
       res.status(404).json({message: "Horse not found"});

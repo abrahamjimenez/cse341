@@ -56,7 +56,8 @@ router.route("/animals/dogs/:id")
   )
   .delete(
     // #swagger.tags = ['Dogs']
-    ensureAuth, deleteDog
+    ensureAuth,
+    deleteDog
   )
 
 router
@@ -88,8 +89,6 @@ router.route("/animals/horses/:id")
   .delete(
     // #swagger.tags = ['Horses']
     ensureAuth,
-    horseValidationRoutes(),
-    validate,
     deleteHorse
   )
 

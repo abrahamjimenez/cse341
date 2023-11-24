@@ -3,7 +3,7 @@ GET localhost:5500/dashboard/animals/horses
 Accept: application/json
 
 ### Get horse by id
-GET localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+GET localhost:5500/dashboard/animals/horses/655eecd20a3219dfff8b1ea8
 Accept: application/json
 
 ### Create horse
@@ -23,11 +23,11 @@ Content-Type: application/json
 }
 
 ### Update horse
-PUT localhost:5500/dashboard/animals/horses/655e8235d67efb2b2b8bf336
+PUT localhost:5500/dashboard/animals/horses/6560258819e5d9b04b3072ec
 Content-Type: application/json
 
 {
-  "speed": "High",
+  "speed": "UPDATED",
   "endurance": "High",
   "height": "15 hands",
   "breed": "Thoroughbred",
@@ -39,5 +39,5 @@ Content-Type: application/json
 }
 
 ### Delete horse
-DELETE localhost:5500/dashboard/animals/horses/655e864efb3bca04e559aa91
+DELETE localhost:5500/dashboard/animals/horses/6560258819e5d9b04b3072ec
 Accept: application/json

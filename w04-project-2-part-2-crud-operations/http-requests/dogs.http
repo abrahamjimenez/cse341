@@ -3,7 +3,7 @@ GET localhost:5500/dashboard/animals/dogs
 Accept: application/json
 
 ### Get dogs by id
-GET localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+GET localhost:5500/dashboard/animals/dogs/65602055473d223cb10f6972
 Accept: application/json
 
 ### Create dog
@@ -23,11 +23,11 @@ Content-Type: application/json
 }
 
 ### Update dog
-PUT localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+PUT localhost:5500/dashboard/animals/dogs/65602055473d223cb10f6972
 Content-Type: application/json
 
 {
-  "intelligence": "High",
+  "intelligence": "DELETE",
   "shedding_level": "Moderate",
   "exercise_needs": "Moderate",
   "breed": "German Shepherd",
@@ -39,4 +39,5 @@ Content-Type: application/json
 }
 
 ### Delete dog
-DELETE localhost:5500/dashboard/animals/dogs/655e8ed35cd9ef3797b700bd
+DELETE localhost:5500/dashboard/animals/dogs/65602055473d223cb10f6972
+Accept: application/json

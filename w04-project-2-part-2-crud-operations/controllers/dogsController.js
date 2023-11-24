@@ -63,21 +63,20 @@ const updateDog = async (req, res) => {
   try {
     const {breed, size, temperament, life_span, origin, color, intelligence, shedding_level, exercise_needs} = req.body;
 
-    const dog = await Dog.findById(req.params.id);
+    const dog = await Dog.findByIdAndUpdate(req.params.id, {
+      breed,
+      size,
+      temperament,
+      life_span,
+      origin,
+      color,
+      intelligence,
+      shedding_level,
+      exercise_needs,
+    }, {new: true});
 
     if (dog) {
-      dog.breed = breed;
-      dog.size = size;
-      dog.temperament = temperament;
-      dog.life_span = life_span;
-      dog.origin = origin;
-      dog.color = color;
-      intelligence.intelligence = intelligence
-      shedding_level.shedding_level = shedding_level;
-      exercise_needs.exercise_needs = exercise_needs;
-
       const updatedDog = await dog.save();
-
       res.json(updatedDog);
     } else {
       res.status(404).json({message: "Dog not found"})
